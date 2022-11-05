@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+/* Обнуление */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+button {
+	cursor: pointer;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+/*--------------------------------------*/
+.app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #1f2632;
+}
+.advice {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 34%;
+	height: auto;
+	padding: 0 50px;
+	background-color: #323a49;
+	border-radius: 15px;
+	font-family: Manrope, serif;
+}
+.advice__title {
+	color: #52ffa8;
+	font-size: 1em;
+	letter-spacing: 3px;
+	margin: 50px 50px 30px;
+}
+.advice__item {
+	color: #fff;
+	font-size: 2em;
+	letter-spacing: 1.2px;
+	text-align: center;
+}
+.advice__divider {
+	margin: 30px 0 20px;
+}
+.advice__button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: translateY(50%);
+	width: 70px;
+	height: 70px;
+	background-color: #52ffa8;
+	border-radius: 50px;
+	transition: box-shadow ease 0.1s;
+}
+.advice__button:hover {
+	box-shadow: 0px 0px 30px #52ffa8;
+}
