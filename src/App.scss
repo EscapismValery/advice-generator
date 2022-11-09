@@ -110,4 +110,7 @@ button::-moz-focus-inner {
 	&__button:hover {
 		box-shadow: 0px 0px 30px #52ffa8;
 	}
+	&__button:active {
+		outline: none;
+	}
 }
