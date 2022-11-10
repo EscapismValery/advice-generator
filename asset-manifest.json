@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/%20//escapismvalery.github.io/advice-generator/static/css/main.cdc308fe.css",
-    "main.js": "/%20//escapismvalery.github.io/advice-generator/static/js/main.413314ea.js",
+    "main.js": "/%20//escapismvalery.github.io/advice-generator/static/js/main.9cf3c0a7.js",
     "index.html": "/%20//escapismvalery.github.io/advice-generator/index.html",
     "main.cdc308fe.css.map": "/%20//escapismvalery.github.io/advice-generator/static/css/main.cdc308fe.css.map",
-    "main.413314ea.js.map": "/%20//escapismvalery.github.io/advice-generator/static/js/main.413314ea.js.map"
+    "main.9cf3c0a7.js.map": "/%20//escapismvalery.github.io/advice-generator/static/js/main.9cf3c0a7.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc308fe.css",
-    "static/js/main.413314ea.js"
+    "static/js/main.9cf3c0a7.js"
   ]
 }
