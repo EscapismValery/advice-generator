@@ -25,7 +25,7 @@ function App() {
 		<div className="app">
 			<div className="advice">
 				<h1 className='advice__title'>ADVICE #{advices?.id ? advices.id : "1"}</h1>
-				<h2 className='advice__item'>{advices?.advice ? advices.advice : "Click on the dice button"}</h2>
+				<h2 className='advice__item'>"{advices?.advice ? advices.advice : "Click on the dice button"}"</h2>
 				<div className='advice__divider'>
 					<span className='advice__divider-line line-left'></span>
 					<div className='advice__divider-container'>
